@@ -1,0 +1,36 @@
+{
+    "name": "bagisto/minimal",
+    "description": "a free theme for Bagisto",
+    "keywords": [
+        "Bagisto",
+        "theme"
+    ],
+    "homepage": "https://github.com/bagisto-europe/minimal",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Glenn Hermans",
+            "email": "info@bagisto.eu",
+            "homepage": "https://bagisto.eu",
+            "role": "Developer"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Bagisto\\Minimal\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bagisto\\Minimal\\MinimalServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

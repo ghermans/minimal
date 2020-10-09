@@ -1,0 +1,102 @@
+.product-area {
+    padding-bottom: 55px;
+}
+
+.product-area-inner {
+    border: 1px solid #ededed;
+    padding: 2px;
+}
+
+.product-area .product-image {
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+}
+
+.product-area .product-image span.new {
+    background: $white none repeat scroll 0 0;
+    border: 2px solid #2d76b5;
+    border-radius: 25px;
+    box-shadow: none;
+    color: #2d76b5;
+    font-size: 12px;
+    font-weight: bold;
+    height: 24px;
+    left: 20px;
+    line-height: 20px;
+    min-height: auto;
+    min-width: auto;
+    padding: 0 15px;
+    position: absolute;
+    right: auto;
+    text-shadow: none;
+    text-transform: uppercase;
+    top: 20px;
+    z-index: 99;
+}
+
+.single-product-area {
+    background: $white;
+    padding-bottom: 25px;
+}
+
+.single-product-area h2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.single-product-area h2 a {
+    color: #555555;
+    display: block;
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 11px;
+}
+
+.single-product-area {
+    background: $white none repeat scroll 0 0;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+
+.single-product-area .product-wrapper .list-col4 {
+    display: block;
+}
+
+.single-product-area .list-col8 {
+    padding: 20px 20px 30px;
+}
+
+.single-product-area .list-col8 .product-info span.price {
+    color: $blue;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.single-product-area .add-to-cart {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid $blue;
+    border-radius: 25px;
+    color: $blue;
+    display: block;
+    float: left;
+    font-size: 15px;
+    font-weight: 600;
+    height: 45px;
+    padding: 0;
+    letter-spacing: 0.01em;
+    line-height: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: none;
+    width: 100%;
+    text-decoration: none;
+}
+
+.add-to-cart button:hover {
+    background: $blue none repeat scroll 0 0;
+    border-color: $blue;
+    color: $white;
+}

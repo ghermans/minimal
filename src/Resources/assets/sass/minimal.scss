@@ -1,0 +1,27 @@
+@import "~bootstrap/scss/bootstrap";
+@import "variables";
+
+html, body {
+    height: 100%;
+}
+  
+body {
+    color: #000000;
+    background-color: #f2f2f2;
+    line-height: 1.74;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    visibility: visible;
+    position: relative;
+}
+
+.header-middle-area {
+    background: $blue none repeat scroll 0 0;
+    padding: 15px 0;
+    padding-top: 30px;
+}
+
+@import "partials/products";
+@import "partials/footer";
