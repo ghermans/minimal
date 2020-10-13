@@ -51,7 +51,7 @@
             @yield('slider')
 
             <div class="py-4">
-                <div class="container">
+                <div class="container-fluid">
                     {!! view_render_event('bagisto.shop.layout.content.before') !!}
                     
                     @yield('content-wrapper')

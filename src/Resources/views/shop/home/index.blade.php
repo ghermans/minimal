@@ -5,7 +5,7 @@
 @stop
 
 @section('content-wrapper')
-
+<section class="bg-grey">
     @if (app('Webkul\Product\Repositories\ProductRepository')->getFeaturedProducts())
     <div class="product-area">
         <div class="container">
@@ -27,8 +27,8 @@
                         <div class="single-product-area">
                             <div class="product-wrapper">
                                 <div class="list-col4">
-                                    <div class="product-image">
-                                        <a href="">
+                                    <div class="text-center">
+                                        <a href="{{ route('shop.productOrCategory.index', $product->url_key) }}">
                                             <img src="{{ $productBaseImage['medium_image_url'] }}" alt="">
                                         </a>
                                     </div>
@@ -62,5 +62,5 @@
             </div>
         </div>
     @endif
-
+</section>
 @stop

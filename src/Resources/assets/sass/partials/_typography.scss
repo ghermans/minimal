@@ -1,0 +1,129 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    color: #000000;
+    background-color: $white;
+    line-height: 1.74;
+    font-family: $font-family;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    visibility: visible;
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: normal;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+    margin: 0px;
+}
+
+span {
+    display: inline-block;
+}
+  
+span.separator {
+    color: #bfbfbf;
+    margin: 0 8px;
+    line-height: 1;
+    font-size: 14px;
+}
+
+.badge {
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    line-height: 1;
+    font-size: 12px;
+    z-index: 2;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+  
+.badge-danger {
+    color:$white;
+    background-color:$red !important;
+}
+  
+.badge-success {
+    color:$white;
+    background-color: #10a341 !important;
+}
+
+.cbdg1 {
+    color:$white;
+    background-color:$red !important;
+}
+
+.wrapper {
+    background: #f5f5f5 none repeat scroll 0 0;
+}
+
+.bg-grey {
+    background-color: #f2f2f2;
+    border-top: 2px solid $blue;
+}
+
+.section-title h3 {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top:20px;
+    padding-bottom: 10px;
+}

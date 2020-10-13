@@ -5,7 +5,6 @@
 @stop
 
 @section('content')
-
     <div class="content full-page dashboard">
         <div class="page-header">
             <div class="page-title">
@@ -19,5 +18,4 @@
         <div class="page-content">
         </div>
     </div>
-
 @stop

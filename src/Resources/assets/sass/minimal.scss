@@ -1,27 +1,50 @@
 @import "~bootstrap/scss/bootstrap";
 @import "variables";
 
-html, body {
-    height: 100%;
-}
-  
-body {
-    color: #000000;
-    background-color: #f2f2f2;
-    line-height: 1.74;
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    visibility: visible;
-    position: relative;
-}
-
-.header-middle-area {
-    background: $blue none repeat scroll 0 0;
-    padding: 15px 0;
-    padding-top: 30px;
-}
+@import "partials/typography";
+@import "partials/header";
 
 @import "partials/products";
 @import "partials/footer";
+
+.cart-block-links li {
+    margin-right: 30px;
+  }
+  
+  @media screen and (min-width: 1200px) and (max-width: 1399px) {
+    .cart-block-links li {
+      margin-right: 20px;
+    }
+  }
+  
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .cart-block-links li {
+      margin-right: 15px;
+    }
+  }
+  
+  .cart-block-links li a {
+    font-size: 16px;
+    font-family: $font-family;
+    font-weight: 700;
+    text-align: center;
+    line-height: 26px;
+  }
+  
+  .cart-block-links li a i {
+    font-size: 28px;
+  }
+  
+  .cart-block-links .cart-total {
+    top: -5px;
+    margin-left: 20px;
+  }
+  
+  .cart-block-links. a {
+    color: #1d1d1d;
+  }
+  
+  .cart-block-links a:hover {
+    color: #f33535;
+  }
+  

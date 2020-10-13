@@ -1,4 +1,5 @@
 .product-area {
+    padding-top: 10px;
     padding-bottom: 55px;
 }
 
@@ -9,35 +10,14 @@
 
 .product-area .product-image {
     overflow: hidden;
-    position: relative;
-    padding: 10px;
-}
-
-.product-area .product-image span.new {
-    background: $white none repeat scroll 0 0;
-    border: 2px solid #2d76b5;
-    border-radius: 25px;
-    box-shadow: none;
-    color: #2d76b5;
-    font-size: 12px;
-    font-weight: bold;
-    height: 24px;
-    left: 20px;
-    line-height: 20px;
-    min-height: auto;
-    min-width: auto;
-    padding: 0 15px;
-    position: absolute;
-    right: auto;
-    text-shadow: none;
-    text-transform: uppercase;
-    top: 20px;
-    z-index: 99;
+    position: static;
 }
 
 .single-product-area {
     background: $white;
-    padding-bottom: 25px;
+    padding-bottom: 28px;
+    border: 1px, solid, $blue !important;
+    border-radius: 15px;
 }
 
 .single-product-area h2 {

@@ -8,7 +8,7 @@
     <li class="nav-item">
         <a class="nav-link" href="{{ route('shop.checkout.cart.index') }}">
         <span class="name">
-            {{ __('shop::app.header.cart') }}
+            <ion-icon size="large" name="cart-outline"></ion-icon>
             <span class="count"> ({{ $cart->items->count() }})</span>
         </span>
         </a>
@@ -17,7 +17,7 @@
     <li class="nav-item">
         <a class="nav-link" href="{{ route('shop.checkout.cart.index') }}">
         <span class="name">
-            {{ __('shop::app.minicart.cart') }}
+            <ion-icon size="large" name="cart-outline"></ion-icon>
             <span class="badge badge-danger"> ({{ __('shop::app.minicart.zero') }})</span>
         </span>
         </a>

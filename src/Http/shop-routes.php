@@ -14,4 +14,9 @@ Route::group(['middleware' => ['web', 'theme', 'locale', 'currency']], function 
         'view' => 'minimal::products.index'
     ])->name('shop.categories.index');*/
 
+    Route::fallback(\Webkul\Shop\Http\Controllers\ProductsCategoriesProxyController::class . '@index')
+        ->defaults('_config', [
+            'product_view' => 'minimal::shop.products.view',
+            'category_view' => 'shop::products.index'
+        ])->name('shop.productOrCategory.index');
 });
